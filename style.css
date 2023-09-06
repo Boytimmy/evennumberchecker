@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background:url(img/pexels-bayram-musayev-17480199.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main{
+  border: 1px solid transparent;
+  height: 300px;
+  width: 400px;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+}
+#score{
+  margin-left: 45px;
+  margin-top: 70px;
+  height: 50px;
+  width: 250px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: white;
+  padding:7px;
+  border: 2px solid white;
+  outline: none;
+  position: relative;
+}
+button{
+  height: 50px;
+  width: 70px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  outline: none;
+  border: 2px solid rgb(95, 4, 4);
+  background-color: red;
+  color:white;
+  position: relative;
+  left: -4px;
+  border: none;
+}
+button:hover{
+background-color: rgb(103, 221, 103);
+border: 0px solid rgb(4, 99, 4);
+transition: 1s;
+cursor: pointer;
+}
+.even{
+  background-color: transparent;
+  color: black;
+  margin-left: 90px;
+  margin-top: 30px;
+  font-weight:bold;
+  font-size: 25px;
+}
+#show{
+  border: 1px solid rgb(206, 203, 203);
+  height: 40px;
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 100px;
+  background-color: white;
+  border-radius: 7px;
+  text-align: center;
+  align-content: center;
+  padding: 7px;
+  font-size: large;
+}
+.marq {
+  color: #070202;
+}
